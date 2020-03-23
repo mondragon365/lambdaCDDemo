@@ -8,6 +8,7 @@ Resources:
       Handler: index.handler
       Runtime: nodejs10.x
       CodeUri: ./
+      Role: 'arn:aws:iam::989663408506:role/beneficios-dev-role'
       Events:
         MyTimeApi:
           Type: Api
